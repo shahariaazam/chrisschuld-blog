@@ -22,9 +22,3 @@ do
         mysqldump $MYSQL_DUMP_OPTIONS -h $DB_HOST -u $DB_USER --password="$DB_PASS" $db | gzip &gt; $db.$DATE_TIME.sql.gz
 done
 {% endhighlight %}
-
-{% highlight php %}
-$shaharia = "other value";
-$totalValue = $shaharia;
-var_dump($totalValue);
-{% endhighlight %}
