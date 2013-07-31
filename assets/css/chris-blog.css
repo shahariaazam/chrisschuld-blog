@@ -101,3 +101,13 @@
 body{
     font-family: 'Pathway Gothic One', sans-serif;
 }
+
+.content-area{
+    border-bottom: 1px solid #696969;
+}
+
+.zone-content .meta{
+    color: #a9a9a9;
+    font-weight: normal;
+    font-size: 6px;
+}

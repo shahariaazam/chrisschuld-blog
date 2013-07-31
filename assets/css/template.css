@@ -16,7 +16,7 @@ a:hover, a:focus {
 
 body {
     /*background-color:#eeeee6;*/
-    font-family: 'PT Serif', serif;
+    font-family: 'Pathway Gothic One', sans-serif;
     font-size: 18px;
     line-height: 30px;
 }
@@ -43,7 +43,6 @@ h1 {
     font-family: 'Pathway Gothic One', sans-serif;
     font-size: 34px;
     font-weight: 300;
-    margin-bottom: 30px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -429,7 +428,8 @@ h1.page-title {
 }
 
 .zone-content h1 {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
+    text-align: left;
 }
 
 /***** 6.b Blog *****/
