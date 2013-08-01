@@ -116,3 +116,11 @@ body{
 pre{
     border: none;
 }
+
+.widget ul{
+    list-style: none;
+}
+
+.widget ul li{
+    margin-top: 3px;
+}
