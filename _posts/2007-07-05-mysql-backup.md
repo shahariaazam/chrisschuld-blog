@@ -1,7 +1,8 @@
 ---
-title: mysql-backup
+title: MySQL Backup
 layout: single-sidebar
 category: linux
+tag: [Mysql, PHP]
 ---
 
 TOne of the challenges of maintaining a <a href="http://mysql.com" target="_blank">MySQL</a> server loaded with customer data is backing up the customer data on timed intervals without editing the backup

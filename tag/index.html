@@ -1,11 +1,11 @@
 ---
-title: Categories
+title: Tags
 layout: single-sidebar
 ---
-{% for category in site.categories %}
-<h2 id="{{ category[0] }}">{{ category[0] | join: "/" }}</h2>
+{% for tag in site.tags %}
+<h2 id="{{ tag[0] }}">{{ tag[0] | join: "/" }}</h2>
 <ul class="post-list">
-    {% assign pages_list = category[1] %}
+    {% assign pages_list = tag[1] %}
     {% if site.JB.pages_list.provider == "custom" %}
     {% include custom/pages_list %}
     {% else %}

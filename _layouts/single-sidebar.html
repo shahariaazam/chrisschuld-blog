@@ -65,6 +65,7 @@
             <article>
                 <h1><a href="{{ post.url }}">{{ page.title }}</a></h1>
                 <span class="meta"> - {{ page.date | date: "%d %b %Y" }}</span>
+
                 <div class="content-area">
                     <p class="lead">
                         {{ content }}
@@ -91,9 +92,12 @@
                 <ul>
                     {% assign lastIsChild = false %}
                     {% for page in site.pages reversed %}
-                    {% if page.isChild and lastIsChild != true %}<ul>{% endif %}
-                    {% if lastIsChild and page.isChild != true %}</ul>{% endif %}
-                    <li><a href="{{ page.url }}">{{ page.title }}</a>
+                    {% if page.isChild and lastIsChild != true %}
+                    <ul>{% endif %}
+                        {% if lastIsChild and page.isChild != true %}
+                    </ul>
+                    {% endif %}
+                    <li>&raquo; <a href="{{ page.url }}">{{ page.title }}</a>
                         {% assign lastIsChild = page.isChild %}
                         {% endfor %}
                 </ul>
@@ -103,23 +107,20 @@
                     <h1>Categories</h1>
                 </header>
                 <ul>
-                {% for category in site.categories %}
+                    {% for category in site.categories %}
                     <li>- <a href="/category#{{ category | first | slugize }}">{{ category | first }}</a></li>
-                {% endfor %}
+                    {% endfor %}
                 </ul>
             </article>
             <article class="widget-search-form widget">
                 <header>
-                    <h1>Donate me!</h1>
+                    <h1>Tags</h1>
                 </header>
-                All of the software on my site is <strong>free &amp; open source</strong> and will stay that way!  If you would like to donate here is the link:<br/><br/>
-
-                <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                    <input type="hidden" name="cmd" value="_s-xclick">
-                    <input type="hidden" name="hosted_button_id" value="UJJ735YN6T4XU">
-                    <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                </form>
+                <ul>
+                    {% for tag in site.tags %}
+                    <li>- <a href="/tag#{{ tag | first | slugize }}">{{ tag | first }}</a></li>
+                    {% endfor %}
+                </ul>
             </article>
         </aside>
     </div>
@@ -128,11 +129,11 @@
     <div class="row">
         <div class="copyright span6">Copyright 2013 - Chris Schuld</div>
         <div class="span6 pull-right" style="text-align: right;">
-                    <a href="#"><i class="smicon-rss"></i></a>
-                    <a href="#"><i class="smicon-twitter"></i></a>
-                    <a href="#"><i class="smicon-google"></i></a>
-                    <a href="#"><i class="smicon-github"></i></a>
-                    <a href="#"><i class="smicon-reddit"></i></a>
+            <a href="#"><i class="smicon-rss"></i></a>
+            <a href="#"><i class="smicon-twitter"></i></a>
+            <a href="#"><i class="smicon-google"></i></a>
+            <a href="#"><i class="smicon-github"></i></a>
+            <a href="#"><i class="smicon-reddit"></i></a>
         </div>
     </div>
 

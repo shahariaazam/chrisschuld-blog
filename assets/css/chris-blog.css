@@ -124,3 +124,7 @@ pre{
 .widget ul li{
     margin-top: 3px;
 }
+
+.zone-content .post-list{
+    list-style: decimal;
+}
