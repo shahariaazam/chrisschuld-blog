@@ -15,25 +15,25 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet">
-    <link href="assets/css/socialicons.css" rel="stylesheet">
-    <link href="assets/css/glyphicons.css" rel="stylesheet">
-    <link href="assets/css/halflings.css" rel="stylesheet">
-    <link href="assets/css/template.css" rel="stylesheet">
-    <link href="assets/css/color-classic.css" rel="stylesheet" id="colorcss">
-    <link href="assets/css/github.css" rel="stylesheet">
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="/assets/css/socialicons.css" rel="stylesheet">
+    <link href="/assets/css/glyphicons.css" rel="stylesheet">
+    <link href="/assets/css/halflings.css" rel="stylesheet">
+    <link href="/assets/css/template.css" rel="stylesheet">
+    <link href="/assets/css/color-classic.css" rel="stylesheet" id="colorcss">
+    <link href="/assets/css/github.css" rel="stylesheet">
 
     <link href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'>
 
-    <link href="assets/css/chris-blog.css" rel="stylesheet">
+    <link href="/assets/css/chris-blog.css" rel="stylesheet">
 
-    <script src="assets/js/modernizr.js"></script>
-    <script src="assets/js/highlight.pack.js"></script>
+    <script src="/assets/js/modernizr.js"></script>
+    <script src="/assets/js/highlight.pack.js"></script>
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
     <![endif]-->
     <script>hljs.initHighlightingOnLoad();</script>
 </head>
@@ -61,18 +61,7 @@
 
     <div class="row main-content">
         <div class="offset2 span8 zone-content">
-            {% for post in site.posts %}
-            <article>
-                <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-                <span class="meta"> - {{ post.date | date: "%d %b %Y" }}</span>
-                <div class="content-area">
-                    <p class="lead">
-                        {{ post.content }}
-                    </p>
-                </div>
-            </article>
-            <br><br>
-            {% endfor %}
+            {{content}}
         </div>
     </div>
 
@@ -95,10 +84,10 @@
 <!-- Le javascript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="assets/js/jquery-1.9.1.js"></script>
-<script src="assets/js/bootstrap.js"></script>
-<script src="assets/js/tinynav.js"></script>
-<script src="assets/js/template.js"></script>
+<script src="/assets/js/jquery-1.9.1.js"></script>
+<script src="/assets/js/bootstrap.js"></script>
+<script src="/assets/js/tinynav.js"></script>
+<script src="/assets/js/template.js"></script>
 
 </body>
 </html>

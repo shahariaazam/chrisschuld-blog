@@ -5,7 +5,8 @@ permalink:  /:title
 auto: true
 rdiscount:
   extensions:[smart, Kramdown]
-
+paginate: 10
+paginate_path: "/page/:num"
 name: Chris Schuld
 url: chris.shahariaazam.com
 description: Chris Schuld's Blog
