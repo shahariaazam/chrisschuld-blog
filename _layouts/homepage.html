@@ -60,7 +60,7 @@
     <hr>
 
     <div class="row main-content">
-        <div class="offset3 span6 zone-content">
+        <div class="offset2 span8 zone-content">
             {% for post in site.posts %}
             <article>
                 <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
@@ -71,59 +71,21 @@
                     </p>
                 </div>
             </article>
+            <br><br>
             {% endfor %}
         </div>
     </div>
 
     <hr>
-
-    <div class="row triple-row">
-        <div id="triple-first" class="span4 triple">
-            <div class="zone zone-triple-first">
-                <article class="widget-triple-first widget-html-widget widget">
-                    <header>
-                        <h1>First Triple</h1>
-                    </header>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a nibh ut tortor dapibus
-                        vestibulum. Aliquam vel sem nibh. Suspendisse vel condimentum tellus.</p>
-                </article>
-            </div>
-        </div>
-
-        <div id="triple-second" class="span4 triple">
-            <div class="zone zone-triple-second">
-                <article class="widget-triple-second widget-html-widget widget">
-                    <header>
-                        <h1>Second Triple</h1>
-                    </header>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a nibh ut tortor dapibus
-                        vestibulum. Aliquam vel sem nibh. Suspendisse vel condimentum tellus.</p>
-                </article>
-            </div>
-        </div>
-
-        <div id="triple-third" class="span4 triple">
-            <div class="zone zone-triple-third">
-                <article class="widget-triple-third widget-html-widget widget">
-                    <header>
-                        <h1>Share &amp; Connect</h1>
-                    </header>
-                    <p>
-                        <a href="#"><i class="smicon-rss"></i></a>
-                        <a href="#"><i class="smicon-twitter"></i></a>
-                        <a href="#"><i class="smicon-google"></i></a>
-                        <a href="#"><i class="smicon-github"></i></a>
-                        <a href="#"><i class="smicon-reddit"></i></a>
-                    </p>
-                </article>
-            </div>
-        </div>
-    </div>
-
-    <hr>
     <div class="row">
-
-        <div class="copyright span12">Copyright 2013 - Chris Schuld</div>
+        <div class="copyright span6">Copyright 2013 - Chris Schuld</div>
+        <div class="span6 pull-right" style="text-align: right;">
+                    <a href="#"><i class="smicon-rss"></i></a>
+                    <a href="#"><i class="smicon-twitter"></i></a>
+                    <a href="#"><i class="smicon-google"></i></a>
+                    <a href="#"><i class="smicon-github"></i></a>
+                    <a href="#"><i class="smicon-reddit"></i></a>
+        </div>
     </div>
 
 </div>
