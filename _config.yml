@@ -4,7 +4,7 @@ pygments: true
 permalink:  /:title
 rdiscount:
   extensions:[smart, Kramdown]
-paginate: 1
+paginate: 10
 name: Chris Schuld
 url: chris.shahariaazam.com
 description: Chris Schuld's Blog
