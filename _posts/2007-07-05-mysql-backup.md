@@ -5,7 +5,7 @@ category: linux
 tag: [Mysql, PHP]
 ---
 
-TOne of the challenges of maintaining a <a href="http://mysql.com" target="_blank">MySQL</a> server loaded with customer data is backing up the customer data on timed intervals without editing the backup
+One of the challenges of maintaining a <a href="http://mysql.com" target="_blank">MySQL</a> server loaded with customer data is backing up the customer data on timed intervals without editing the backup
 script(s) each time you add a customer or database. I wrote this script to process the backups automatically for me.
 
 {% highlight bash %}#!/bin/sh
