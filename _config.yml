@@ -12,3 +12,19 @@ twitter: shaharia
 github: shahariaazam
 facebook: shaharia.azam
 author: Chris Schuld
+
+sitemap:  yes
+
+searchEngine: google
+
+commentDisable: false
+
+relatedPostVisible: true
+
+searchWidgetShow: true
+
+PageListShow: true
+
+TagListShow: true
+
+DonatePayPalShow: true
