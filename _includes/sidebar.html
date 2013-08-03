@@ -1,0 +1,65 @@
+<aside id="aside-right" class="aside-column offset1 span3">
+    <article class="widget-search-form widget">
+        <header>
+            <h1>Support this Blog &amp; Software</h1>
+        </header>
+        All of the software on my site is <strong>free &amp; open source</strong> and will stay that way!  If you would like to donate here is the link:<br/><br/>
+
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="UJJ735YN6T4XU">
+            <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+    </article>
+    <article class="widget-search-form widget">
+        <header>
+            <h1>Search</h1>
+        </header>
+        <!--Search result will be provided by Google. Search result will be started after when google will crawl the page-->
+        <form action="http://www.google.com/search" class="search-form" method="get" target="_blank">
+            <fieldset>
+                <input id="q" name="q" type="text" value="">
+                <input type="hidden" name="q" value="site:{{ site.url }}">
+                <button type="submit">Search</button>
+            </fieldset>
+        </form>
+    </article>
+    <article class="widget-search-form widget">
+        <header>
+            <h1>Pages</h1>
+        </header>
+        <ul>
+            {% assign lastIsChild = false %}
+            {% for page in site.pages reversed %}
+            {% if page.isChild and lastIsChild != true %}
+            <ul>{% endif %}
+                {% if lastIsChild and page.isChild != true %}
+            </ul>
+            {% endif %}
+            <li>&raquo; <a href="{{ page.url }}">{{ page.title }}</a>
+                {% assign lastIsChild = page.isChild %}
+                {% endfor %}
+        </ul>
+    </article>
+    <article class="widget-search-form widget">
+        <header>
+            <h1>Categories</h1>
+        </header>
+        <ul>
+            {% for category in site.categories %}
+            <li>- <a href="/category#{{ category | first | slugize }}">{{ category | first }}</a></li>
+            {% endfor %}
+        </ul>
+    </article>
+    <article class="widget-search-form widget">
+        <header>
+            <h1>Tags</h1>
+        </header>
+        <ul>
+            {% for tag in site.tags %}
+            <li>- <a href="/tag#{{ tag | first | slugize }}">{{ tag | first }}</a></li>
+            {% endfor %}
+        </ul>
+    </article>
+</aside>
