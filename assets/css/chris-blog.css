@@ -99,7 +99,7 @@
 /* Google Font */
 
 body{
-    font-family: 'Pathway Gothic One', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background-color: #ffffff;
 }
 
@@ -127,4 +127,8 @@ pre{
 
 .zone-content .post-list{
     list-style: decimal;
+}
+
+body{
+    font-size: 16px;
 }
