@@ -1,7 +1,7 @@
 ---
 title: How to Re-number an OpenVZ Container from one CTID to another
 layout: single-sidebar
-category: [linux, CentOS5]
+categories: [Linux, CentOS5]
 ---
 
 Poor planning: I guess I am guilty. A few times I have needed to re-number an OpenVZ Container. You just need to know what your current CTID is (sourcecid) and your desired target CTID (targetcid).

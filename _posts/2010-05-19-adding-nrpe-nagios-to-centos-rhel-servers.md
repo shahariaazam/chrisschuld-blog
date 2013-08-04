@@ -1,7 +1,7 @@
 ---
 title: Adding NRPE (Nagios) to CentOS \/ RHEL Servers
 layout: single-sidebar
-category: [linux]
+category: Linux
 ---
 
 We use [nagios](http://www.nagios.org/) to watch our networks and I always forget the simple steps necessary to drop NRPE on the virtual servers or physical services. This post is simply my process I use to drop NRPE on our servers.

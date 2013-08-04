@@ -1,8 +1,8 @@
 ---
 title: Dumping Addresses from phplist
 layout: single-sidebar
-category: [PHP]
-tag: [smarty]
+category: PHP
+tag: smarty
 ---
 
 We recently moved away from phplist (goodbye phplist — we loved you for a while but now we need more power). Here is the SQL used to rip our users out of the main list. Attributes 1 and 2 are the first and last name.

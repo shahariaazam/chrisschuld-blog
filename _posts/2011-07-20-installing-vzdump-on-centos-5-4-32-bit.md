@@ -1,7 +1,7 @@
 ---
 title: Installing vzdump on CentOS 5.4 (32-bit)
 layout: single-sidebar
-category: [OpenVZ]
+category: OpenVZ
 ---
 
 There are a few items required for installing vzdump for OpenVZ on 32bit CentOS.

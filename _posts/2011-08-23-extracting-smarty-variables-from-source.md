@@ -1,8 +1,8 @@
 ---
 title: Extracting Smarty variables from source
 layout: single-sidebar
-category: [PHP, linux, regex]
-tag: [smarty]
+categories: [PHP, Linux, regex]
+tag: smarty
 ---
 
 You can extract all of the variables in use from a Smarty template using a simple call to `*nix` grep with a trivial regex expression. Here is the command-

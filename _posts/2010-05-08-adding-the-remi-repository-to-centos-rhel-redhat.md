@@ -1,7 +1,7 @@
 ---
 title: Adding the REMI Repository to CentOS / RHEL / RedHat
 layout: single-sidebar
-category: [linux, CentOS5]
+categories: [Linux, CentOS5]
 ---
 
 I am a fan of the REMI Repository. Here are the steps necessary to add, enable and then update your box w/ the latest packages from the REMI Repository.
