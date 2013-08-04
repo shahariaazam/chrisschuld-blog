@@ -10,7 +10,11 @@
             {% if lastIsChild and page.isChild != true %}
         </ul>
         {% endif %}
+        {% if page.include != true %}
+
+        {% else %}
         <li>&raquo; <a href="{{ page.url }}">{{ page.title }}</a>
+        {% endif %}
             {% assign lastIsChild = page.isChild %}
             {% endfor %}
     </ul>

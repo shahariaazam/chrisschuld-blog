@@ -1,6 +1,7 @@
 ---
 title: Contact with me
 layout: single-sidebar
+include: true
 ---
 
 #### Chris Schuld

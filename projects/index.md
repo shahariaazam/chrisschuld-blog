@@ -2,6 +2,7 @@
 title: Projects
 layout: single-sidebar
 pagesl: 1
+include: true
 ---
 Here are a few public projects and open source concepts I am working on and with:
 

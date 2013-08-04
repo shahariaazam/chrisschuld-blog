@@ -1,6 +1,7 @@
 ---
 title: About Me
 layout: single-sidebar
+include: true
 ---
 
 Hello and thank you for visiting my website and blog.
