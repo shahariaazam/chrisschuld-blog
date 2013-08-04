@@ -47,7 +47,7 @@
     <meta property="fb:app_id" content="268051693301630"/>
     <meta property="og:url" content="http://{{ site.url }}/{{ page.url }}/"/>
     <meta property="og:title" content="{{ page.title }}"/>
-    <meta property="og:description" content='{{ page.content | truncatewords: 180 }}'/>
+    <meta property="og:description" content='{{ page.content | truncatewords: 180 | escape }}'/>
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
