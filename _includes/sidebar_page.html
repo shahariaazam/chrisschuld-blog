@@ -10,7 +10,10 @@
             {% if lastIsChild and page.isChild != true %}
         </ul>
         {% endif %}
-        <li>&raquo; <a href="{{ page.url }}">{{ page.title }}</a>
+        {% page.title = page1 or page.title = page2 %}
+        {% else %}
+        <li>&raquo; <a href="{{ page.url }}">{{ page.title }}</a></li>
+        {% endif %}
             {% assign lastIsChild = page.isChild %}
             {% endfor %}
     </ul>
