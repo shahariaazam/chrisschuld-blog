@@ -1,0 +1,22 @@
+{% include header.html %}
+
+<body>
+
+<div class="container">
+
+    {% include navigation.html %}
+
+    <hr>
+
+    <div class="row main-content">
+        <div class="offset2 span8 zone-content">
+            {{content}}
+        </div>
+    </div>
+
+    <hr>
+    {% include footer.html %}
+
+</div>
+<!-- End Container -->
+{% include footer_script.html %}
