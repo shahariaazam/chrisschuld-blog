@@ -1,0 +1,30 @@
+markdown: maruku
+markdown_ext: markdown,mkd,mkdn,md
+pygments: true
+permalink:  /:title
+rdiscount:
+  extensions:[smart, Kramdown]
+paginate: 10
+name: Chris Schuld
+url: chris.shahariaazam.com
+description: Chris Schuld's Blog
+twitter: shaharia
+github: shahariaazam
+facebook: shaharia.azam
+author: Chris Schuld
+
+sitemap:  yes
+
+searchEngine: google
+
+commentDisable: false
+
+relatedPostVisible: true
+
+searchWidgetShow: true
+
+PageListShow: true
+
+TagListShow: true
+
+DonatePayPalShow: true
