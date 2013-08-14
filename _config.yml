@@ -6,11 +6,11 @@ rdiscount:
   extensions:[smart, Kramdown]
 paginate: 10
 name: Chris Schuld
-url: chris.shahariaazam.com
+url: chrisschuld.com
 description: Chris Schuld's Blog
-twitter: shaharia
-github: shahariaazam
-facebook: shaharia.azam
+twitter: cbschuld
+github: cbschuld
+facebook: cbschuld
 author: Chris Schuld
 
 sitemap:  yes
