@@ -44,11 +44,11 @@ echo Format::kilobytes(20375237).'
 
 [This typical usage will output this&#58;](#typicalusage)
 
-`4803736581
+<pre>4803736581
 3736581
 (800) 959-0045
 373-6581
 (480) 373-6581
 $56.32
 19.43 MB
-19.43 GB`
+19.43 GB</pre>
