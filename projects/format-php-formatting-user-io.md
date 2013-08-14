@@ -41,6 +41,7 @@ echo Format::kilobytes(20375237).'
 ';
 {% endhighlight %}
 
+
 [This typical usage will output this&#58;](#typicalusage)
 
 `4803736581
