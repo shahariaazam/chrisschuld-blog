@@ -1,7 +1,7 @@
 /***** 1. Content *****/
 
 a {
-    color: #299ECB;
+    color: #3051B9;
 }
 
 body{
@@ -13,7 +13,7 @@ body, legend {
 }
 
 h1 {
-	color:#299ECB;
+	color:#3051B9;
 }
 
 hr {
@@ -46,7 +46,7 @@ hr {
 }
 
 .ww-nav a:hover {
-	color:#299ECB;
+	color:#3051B9;
 }
 
 
@@ -61,7 +61,7 @@ hr {
 
 button
 {
-	background-color: #299ECB;
+	background-color: #3051B9;
 	color:#eeeee6;
 }
 
@@ -126,7 +126,7 @@ input[type="color"]:focus,
 
 
 a.button-link {
-  background-color: #299ECB;
+  background-color: #3051B9;
   color:#eeeee6;
 }
 
@@ -170,7 +170,7 @@ a.button-link:hover {
 .widget-blogcategories a:hover,
 .widget-blogarchives a:hover
 {
-  color:#299ECB;
+  color:#3051B9;
 }
 
 
@@ -179,7 +179,7 @@ a.button-link:hover {
 
 
 ul.tagcloud a:hover {
-	color:#299ECB
+	color:#3051B9
 }
 
 
@@ -188,7 +188,7 @@ ul.tagcloud a:hover {
 
 
 .comment-form legend#add-comment, h2.comment-count {
-	color:#299ECB;
+	color:#3051B9;
 }
 
 
