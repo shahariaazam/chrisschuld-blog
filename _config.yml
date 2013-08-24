@@ -1,7 +1,7 @@
 markdown: maruku
 markdown_ext: markdown,mkd,mkdn,md
 pygments: true
-permalink:  /:title
+permalink:  /:year/:month/:title
 rdiscount:
   extensions:[smart, Kramdown]
 paginate: 10
